@@ -1,8 +1,7 @@
 ---
 title: SGU 104 Little shop of flowers
 tags:
-  - DP
-  - SGU
+  - ACM
 date: 2014-03-05 22:29:35
 ---
 
@@ -15,7 +14,8 @@ dp[i][j] = max(dp[i-1][j-1] + a[i][j], dp[i][j-1])
 -50 -50 -50 -50 -50
 这样的数据
 记得初始化好
-<pre class="brush:cpp">
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-03-05 21:53:31
  *
@@ -80,6 +80,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

@@ -1,25 +1,23 @@
 ---
 title: "POJ 1698 Alice's Chance (最大流 SAP)"
 tags:
-  - POJ
-  - SAP
-  - 网络流
+  - ACM
 date: 2014-02-03 16:17:08
 ---
 
-<span style="color: rgb(48, 48, 48); font-family: Verdana, Helvetica, Arial; line-height: 18px; text-align: justify;">一个源点s，向每部电影连边，容量为电影要拍的天数d</span>
+一个源点s，向每部电影连边，容量为电影要拍的天数d
 
-	<span style="color: rgb(48, 48, 48); font-family: Verdana, Helvetica, Arial; line-height: 18px; text-align: justify;">对于每部电影，向它能够拍摄的日子连边，容量为1，这些日子必须在这部电影的限期之内</span>
+对于每部电影，向它能够拍摄的日子连边，容量为1，这些日子必须在这部电影的限期之内
 
-	<span style="color: rgb(48, 48, 48); font-family: Verdana, Helvetica, Arial; line-height: 18px; text-align: justify;">加入一个汇点t，每个日子向t连边，容量为1，表示一天只能拍摄一部电影</span>
+加入一个汇点t，每个日子向t连边，容量为1，表示一天只能拍摄一部电影
 
-	<span style="color: rgb(48, 48, 48); font-family: Verdana, Helvetica, Arial; line-height: 18px; text-align: justify;">最后判断一下最大流是否等于所有电影要拍的天数和即可。</span>
+最后判断一下最大流是否等于所有电影要拍的天数和即可。
 
-	 
 
-	用邻接矩阵建的图
 
-<pre class="brush:cpp">
+用邻接矩阵建的图
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-02-03 11:00:14
  *
@@ -136,6 +134,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
 
-	 
+```

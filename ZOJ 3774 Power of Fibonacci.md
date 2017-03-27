@@ -1,18 +1,15 @@
 ---
 title: ZOJ 3774 Power of Fibonacci
 tags:
-  - Contest
-  - ZOJ
-  - 二次剩余
-  - 逆元
+  - ACM
 date: 2014-04-07 21:25:57
 ---
 
 看了ACdreamers的解题[http://blog.csdn.net/acdreamers/article/details/23039571](http://blog.csdn.net/acdreamers/article/details/23039571)
 
-	 
 
-<pre class="brush:cpp">
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-07 20:49:38
  *
@@ -98,6 +95,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

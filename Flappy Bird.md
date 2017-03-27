@@ -4,7 +4,7 @@ date: 2014-05-29 09:31:48
 tags:
 ---
 
-<pre class="brush:cpp">
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -294,6 +294,6 @@ int main()
 //22┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳┳┯┳
 //══════════════════════════════════════
 
-</pre>
+```
 
 	 

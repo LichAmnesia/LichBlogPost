@@ -5,13 +5,10 @@ tags:
 date: 2014-03-17 10:44:37
 ---
 
-<div>
-	 这是操作系统课上的作业，SJF的那个调度要计算的实在太多就写了个程序帮我跑了。
-</div>
+这是操作系统课上的作业，SJF的那个调度要计算的实在太多就写了个程序帮我跑了。
 
-<div>
-	 题目如下：
-</div>
+题目如下：
+
 
 <div align="left" style="margin-left: 10.5pt;">
 	**进程         到达时间              执行时间**
@@ -45,7 +42,7 @@ date: 2014-03-17 10:44:37
 	用程序模拟了下实践过程
 </div>
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 using namespace std;
 int main(int argc, char const *argv[])
@@ -98,11 +95,11 @@ int main(int argc, char const *argv[])
 		cout << "P" << i << " cycling_time: " << end[i] - arrive[i] << endl;
 	}
 	return 0;
-}</pre>
+}
+```
 
-	 
 
-	结果如下，有可能出现两种调度，具体怎样还不清楚是哪种
+结果如下，有可能出现两种调度，具体怎样还不清楚是哪种
 
 <table border="0" cellpadding="0" cellspacing="0" style="width:347px;" width="347">
 	<colgroup>

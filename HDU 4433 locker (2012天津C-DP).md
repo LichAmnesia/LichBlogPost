@@ -1,16 +1,15 @@
 ---
 title: HDU 4433 locker (2012天津C-DP)
 tags:
-  - Contest
-  - HDU
+  - ACM
 date: 2013-12-16 20:04:55
 ---
 
 dp[i][x][y] 表示前i个已经完成匹配并且i+1为x，i+2为y的时候的最小变化次数
 
-	因为第i个是肯定要变的，然后后面的两个数的变换次数分别有up >= k >= l （up为i的变化，k为i+1的变换，l为i+2的变换）或者down >= k >= l
+因为第i个是肯定要变的，然后后面的两个数的变换次数分别有up >= k >= l （up为i的变化，k为i+1的变换，l为i+2的变换）或者down >= k >= l
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2013-12-16 19:14:28
  *
@@ -80,6 +79,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

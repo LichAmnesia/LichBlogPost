@@ -1,12 +1,11 @@
 ---
 title: POJ 3420 Quad Tiling
 tags:
-  - DP
-  - POJ
+  - ACM
 date: 2013-12-16 21:01:55
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2013-12-16 20:21:11
  *
@@ -94,14 +93,15 @@ int main(){
 		printf("%lldn", ans[15][15]);
 	}
 	return 0;
-}</pre>
+}
+```
 
-	 
+ 
 
-	用矩阵表示状态的转移
+用矩阵表示状态的转移
 
-	位运算计算下一行的状态
+位运算计算下一行的状态
 
-	两个能够转化的连接一条边
+两个能够转化的连接一条边
 
-	 
+ 

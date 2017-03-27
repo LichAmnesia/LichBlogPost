@@ -1,26 +1,23 @@
 ---
 title: POJ 3093 Margaritas on the River Walk (01背包)
 tags:
-  - DP
-  - POJ
+  - ACM
 date: 2014-03-06 15:22:57
 ---
 
 题意：
 
-	<span style="font-size: 13px;">       </span>每个物体都有一个权值a[i]，求出的是背包目前sum值不能再放入任何一个物体，意思就是sum+a[i] <= d这个的方案数
+每个物体都有一个权值a[i]，求出的是背包目前sum值不能再放入任何一个物体，意思就是sum+a[i] <= d这个的方案数
 
-	想法：
+想法：
 
-	       先排序,sum[i]，前i个物体的权值和
+先排序,sum[i]，前i个物体的权值和
 
-	<span style="font-size: 13px;">       </span>可以枚举1-N那个物体不在背包的，这样子i之前的全都在背包里，在i+1-N的进行背包，背包的大小在d-sum[i]到d-sum[i-1]+1之间，相想为何要+1
+可以枚举1-N那个物体不在背包的，这样子i之前的全都在背包里，在i+1-N的进行背包，背包的大小在d-sum[i]到d-sum[i-1]+1之间，相想为何要+1
 
-	<span style="font-size: 13px;">       </span><span style="line-height: 1.6em;">然后从N开始向下枚举，改一改如上算法就行</span>
+然后从N开始向下枚举，改一改如上算法就行
 
-	 
-
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-03-06 15:04:22
  *
@@ -74,6 +71,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

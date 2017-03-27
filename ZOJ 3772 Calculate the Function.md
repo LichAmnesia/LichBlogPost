@@ -1,19 +1,17 @@
 ---
 title: ZOJ 3772 Calculate the Function
 tags:
-  - Contest
-  - ZOJ
-  - 线段树
+  - ACM
 date: 2014-04-07 20:39:45
 ---
 
 2014 浙大校赛 F 单点更新线段树
 
-	把递推式子写成矩阵的形式，这样f[r]就相当于一个矩阵连成的形式
+把递推式子写成矩阵的形式，这样f[r]就相当于一个矩阵连成的形式
 
-	注意矩阵连乘时候的方向
+注意矩阵连乘时候的方向
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-07 20:02:21
  *
@@ -115,6 +113,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

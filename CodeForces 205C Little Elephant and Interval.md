@@ -1,8 +1,7 @@
 ---
 title: CodeForces 205C Little Elephant and Interval
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-11-21 10:02:20
 ---
 

@@ -1,16 +1,15 @@
 ---
 title: POJ 2263 Heavy Cargo
 tags:
-  - POJ
-  - 最短路
+  - ACM
 date: 2013-08-27 17:09:59
 ---
 
 简单的最短路应用，只是把修改dist数组或者dp数组的条件改变一下就行
 
-	还有Map的查找
+还有Map的查找
 
-<pre class="brush:cpp">
+```cpp
 /*
  *
  * */
@@ -82,6 +81,7 @@ int main(){
 		printf("Scenario #%dn%d tonsnn", ++co, edge[x][y]);
 	}
 	return 0;
-}</pre>
+}
+```
 
 	 

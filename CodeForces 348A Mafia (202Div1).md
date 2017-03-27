@@ -1,14 +1,13 @@
 ---
 title: CodeForces 348A Mafia (202Div1)
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-09-30 09:18:15
 ---
 
 安排表形成一个矩阵n是已知的求的就是天数x，x*n大约等于sum，记得sum-1因为正好的话会出现问题
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2013-09-29 20:57:37
  * 
@@ -48,6 +47,6 @@ int main(){
 	printf("%dn", max(1ll * Max,(s-1)/(n-1) + 1));
 	return 0;
 }
-</pre>
+```
 
 	 

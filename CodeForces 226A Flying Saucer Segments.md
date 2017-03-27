@@ -1,20 +1,17 @@
 ---
 title: CodeForces 226A Flying Saucer Segments
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-12-03 09:42:14
 ---
 
 画图找规律
 
 	f[1] = 2
-
 	f[n] = f[n-1] + 1 + f[n-1] + 1 + f[n-1]
-
 	f[n] = 3^n - 1 快速幂
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cmath>
 #include <cstdio>
@@ -37,8 +34,7 @@ int main(){
 	cin >> n >> m;
 	cout << (quick_mod(3,n,m) - 1 + m) % m<< endl;
  	return 0;
-}</pre>
-
-	 
+}
+``` 
 
 	 

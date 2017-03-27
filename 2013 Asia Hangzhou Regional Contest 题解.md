@@ -1,7 +1,7 @@
 ---
 title: 2013 Asia Hangzhou Regional Contest 题解
 tags:
-  - Contest
+  - ACM
 date: 2014-11-03 13:03:53
 ---
 

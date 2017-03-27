@@ -1,13 +1,11 @@
 ---
 title: POJ 1001 Exponentiation (Java大数)
 tags:
-  - Java
-  - POJ
-  - 高精度
+  - ACM
 date: 2013-11-12 10:42:53
 ---
 
-<pre class="brush:java">
+```java
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -66,6 +64,6 @@ public class Main {
 		}
 	}
 }
-</pre>
+```
 
 	 

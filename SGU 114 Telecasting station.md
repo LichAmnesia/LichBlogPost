@@ -1,14 +1,13 @@
 ---
 title: SGU 114 Telecasting station
 tags:
-  - SGU
-  - 数学
+  - ACM
 date: 2014-01-06 20:15:05
 ---
 
 带权中位数，百度百科可以看[http://baike.baidu.com/view/1209446.htm](http://baike.baidu.com/view/1209446.htm)
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-01-06 20:04:54
  *
@@ -62,6 +61,5 @@ int main(){
         } 
     }
     return 0;
-}</pre>
-
-	 
+}
+```	 

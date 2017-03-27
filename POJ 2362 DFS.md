@@ -1,8 +1,7 @@
 ---
 title: POJ 2362 DFS
 tags:
-  - DFS
-  - POJ
+  - ACM
 date: 2013-07-27 19:44:14
 ---
 

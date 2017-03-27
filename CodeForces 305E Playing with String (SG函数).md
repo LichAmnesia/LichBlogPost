@@ -1,15 +1,13 @@
 ---
 title: CodeForces 305E Playing with String (SG函数)
 tags:
-  - CodeForces
-  - SG
-  - 博弈
+  - ACM
 date: 2014-01-24 15:42:32
 ---
 
 <span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;">Let&#39;s consider substring of </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_s_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_s_[_i_... _j_]</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;">, that all characters from </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_i_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> to </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_j_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> are palindrome centers, and </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_i_&thinsp;-&thinsp;1,&thinsp;_j_&thinsp;+&thinsp;1</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> are not. Every such substring can be treated independently from the others, and as we don&#39;t need to know it&#39;sstructure let&#39;s consider only it length </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_len_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;">. Let&#39;s calculate</span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_grundy_[_len_]</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> &mdash; Grundy function. If we want to cut character at position </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_i_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">0&thinsp;&le;&thinsp;_i_&thinsp;<&thinsp;_len_</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> then our game splits in to independent ones: first will have length </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_i_&thinsp;-&thinsp;1</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;">, second &mdash; </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_len_&thinsp;-&thinsp;_i_&thinsp;-&thinsp;2</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;">, as </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_s_[_i_&thinsp;-&thinsp;1]</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> and </span><span class="tex-span" style="font-size: 18px; font-family: 'times new roman', sans-serif; color: rgb(34, 34, 34); line-height: 19.59375px;">_s_[_i_&thinsp;+&thinsp;1]</span><span style="color: rgb(34, 34, 34); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.59375px;"> are not centers of palindrome any more.</span>
 
-<pre class="brush:cpp">
+```cpp
 #include <cstdio>
 #include <memory.h>
 #include <cstring>
@@ -69,7 +67,7 @@ int main(){
 	}
 	puts("Second");
 }
-</pre>
+```
 
 	 
 

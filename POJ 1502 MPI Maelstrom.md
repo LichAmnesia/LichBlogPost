@@ -1,13 +1,11 @@
 ---
 title: POJ 1502 MPI Maelstrom
 tags:
-  - DP
-  - POJ
-  - 最短路
+  - ACM
 date: 2013-08-18 10:27:54
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* floyd + 字符串变数字 
  * 看input的里面就行了
  * 题意就是求第一个点到各个点最短路径中的最大值。
@@ -70,6 +68,6 @@ int main(){
 	printf("%dn", ans);
 	return 0;
 }
-</pre>
+```
 
 	 

@@ -1,14 +1,13 @@
 ---
 title: CodeForces 205B Little Elephant and Sorting （贪心）
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-11-21 10:00:06
 ---
 
 每个前面大的后面小的都需要使他们保持平衡
 
-<pre class="brush:cpp">
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -28,6 +27,7 @@ int main(){
 	}
 	cout << ans << endl;
 	return 0;
-}</pre>
+}
+```
 
 	 

@@ -1,9 +1,7 @@
 ---
-title: "HDU 3729 I'm Telling the Truth (2010 天津赛区 J)"
+title: HDU 3729 I'm Telling the Truth (2010 天津赛区 J)
 tags:
-  - Contest
-  - HDU
-  - 匹配
+  - ACM
 date: 2013-08-01 12:53:17
 ---
 

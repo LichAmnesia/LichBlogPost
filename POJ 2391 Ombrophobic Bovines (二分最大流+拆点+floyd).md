@@ -1,32 +1,22 @@
 ---
 title: POJ 2391 Ombrophobic Bovines (二分最大流+拆点+floyd)
 tags:
-  - dinic
-  - 二分最大流
-  - 拆点
-  - 网络流
+  - ACM
 date: 2014-07-06 09:14:49
 ---
 
-**<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">题意</span>**
+### 题意
 
-	<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">给出一些牛棚，开始牛棚边有一些牛，牛棚之间有路相连，走一条路会花费固定的时间。牛在牛棚边吃草，下雨时牛得躲进牛棚，每个牛棚容量有限。</span>
+给出一些牛棚，开始牛棚边有一些牛，牛棚之间有路相连，走一条路会花费固定的时间。牛在牛棚边吃草，下雨时牛得躲进牛棚，每个牛棚容量有限。
 
-	<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">求：在所有牛都能进牛棚时最少需要多少时间。</span>
+求：在所有牛都能进牛棚时最少需要多少时间。
 
-	 
+如果知道了时间time，则如果两个牛棚之间所需的最少时间<=time，每个牛棚拆成两点x1和x2。如果两个牛棚a和b之间可以相连,则ax1连ax2，容量为无穷（因为路是无限大的，可以容纳任意多的牛）。s->x1,容量为每个牛棚容量为牛棚的牛数量，x2->t，容量为每个牛棚的容量。
 
-	<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">**分析**</span>
+一定要把每个点拆成两个点的。如果直接连原图中的点，是不对的。举个例子:1->2->3, 边长度都为1，则1到3是2。如果枚举ans等于1是，会产生1->2,2->3合法，则最后1也可以到3了，这是错的。
 
-	<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">如果知道了时间time，则如果两个牛棚之间所需的最少时间<=time，每个牛棚拆成两点x1和x2。如果两个牛棚a和b之间可以相连,则ax1连ax2，容量为无穷（因为路是无限大的，可以容纳任意多的牛）。s->x1,容量为每个牛棚容量为牛棚的牛数量，x2->t，容量为每个牛棚的容量。</span>
 
-	<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">一定要把每个点拆成两个点的。如果直接连原图中的点，是不对的。举个例子:1->2->3, 边长度都为1，则1到3是2。如果枚举ans等于1是，会产生1->2,2->3合法，则最后1也可以到3了，这是错的。</span>
-
-	 
-
-	**<span style="color: rgb(48, 48, 48); line-height: 18px; text-align: justify; font-family: 微软雅黑;">代码</span>**
-
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-07-05 14:59:19
  *
@@ -221,6 +211,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
 
-	 
+```
+

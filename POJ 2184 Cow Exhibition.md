@@ -1,13 +1,11 @@
 ---
 title: POJ 2184 Cow Exhibition
 tags:
-  - DP
-  - POJ
-  - 背包
+  - ACM
 date: 2013-08-28 09:31:57
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* POJ 2184 DP 背包 
  * 在于有负数的情况，平移可以解决,平移100000，这样原来的0就是现在的100000
  * 在一般的01背包压缩空间的时候，体积的遍历是从大到小，
@@ -75,6 +73,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

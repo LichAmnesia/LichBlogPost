@@ -1,12 +1,11 @@
 ---
 title: POJ 2079 Triangle (凸包上的点组成最大三角形)
 tags:
-  - POJ
-  - 计算几何
+  - ACM
 date: 2014-03-29 12:06:02
 ---
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstdio>
 # include <cmath>
@@ -85,6 +84,6 @@ int main(int argc, char const *argv[])
 		printf("%.2fn", ret * 0.5);
 	}
 	return 0;
-}</pre>
-
+}
+```
 	 

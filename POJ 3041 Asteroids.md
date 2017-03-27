@@ -1,8 +1,7 @@
 ---
 title: POJ 3041 Asteroids
 tags:
-  - POJ
-  - 匹配
+  - ACM
 date: 2013-08-02 23:59:37
 ---
 

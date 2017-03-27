@@ -1,13 +1,11 @@
 ---
 title: POJ 3608 Bridge Across Islands (两凸包的距离)
 tags:
-  - POJ
-  - 两凸包距离
-  - 计算几何
+  - ACM
 date: 2014-03-29 11:51:07
 ---
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstring>
 #include <cstdio>
@@ -139,6 +137,7 @@ int main(int argc, char const *argv[])
 		printf("%.5fn",minimum_distance(ch1,n,ch2,m));
 	}
 	return 0;
-}</pre>
+}
+```
 
 	 

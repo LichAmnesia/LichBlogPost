@@ -1,16 +1,16 @@
 ---
 title: UVA 11178 Morley’s Theorem (简单几何题)
 tags:
-  - uVa
-  - 计算几何
+  - ACM
 date: 2014-02-09 14:52:10
 ---
 
 实在是太久没写几何题了调试了快一个小时～～～郁闷
 
-	简单的计算就行了
+简单的计算就行了
 
-<pre class="brush:cpp">
+```cpp
+
 /* From: Lich_Amnesia
  * Time: 2014-02-09 13:55:35
  *
@@ -122,6 +122,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

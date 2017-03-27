@@ -1,14 +1,11 @@
 ---
 title: HDU 4636 Painting the Football (2013多校第四场E)
 tags:
-  - BFS
-  - Contest
-  - HDU
-  - 枚举
+  - ACM
 date: 2013-08-13 17:28:46
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* 先把相邻的东东全部搞出来，然后搜索白色有多少块（不算一个的），黑色有多少块
  * 然后比较如果黑色的两块以内直接写出答案，否则如果白色连在一起则只要两次
  * 否则需要3次
@@ -113,6 +110,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

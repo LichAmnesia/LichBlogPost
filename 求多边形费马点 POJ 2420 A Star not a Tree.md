@@ -1,11 +1,7 @@
 ---
 title: 求多边形费马点 POJ 2420 A Star not a Tree?
 tags:
-  - POJ
-  - 多边形
-  - 数学
-  - 模拟退火
-  - 费马点
+  - ACM
 date: 2013-08-31 13:33:23
 ---
 

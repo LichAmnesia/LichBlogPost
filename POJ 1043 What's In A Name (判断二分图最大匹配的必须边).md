@@ -1,12 +1,11 @@
 ---
 title: "POJ 1043 What's In A Name? (判断二分图最大匹配的必须边)"
 tags:
-  - POJ
-  - 匹配
+  - ACM
 date: 2014-04-02 08:09:17
 ---
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <algorithm>
@@ -137,6 +136,7 @@ int main(){
             cout<< str[os[pair1[i].second]] << endl; 
      }
 	return 0;
-}</pre>
+}
+```
 
 	 

@@ -1,12 +1,11 @@
 ---
 title: ZOJ 1450 Minimal Circle (最小圆覆盖)
 tags:
-  - ZOJ
-  - 最小圆覆盖
+  - ACM
 date: 2014-03-29 11:49:41
 ---
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstdio>
 # include <cmath>
@@ -74,6 +73,6 @@ int main(int argc, char const *argv[])
 		printf("%.2f %.2f %.2fn", c.c.x,c.c.y,c.r);
 	}
 	return 0;
-}</pre>
-
+}
+```
 	 

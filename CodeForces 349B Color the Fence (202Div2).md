@@ -1,14 +1,13 @@
 ---
 title: CodeForces 349B Color the Fence (202Div2)
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-09-30 09:15:12
 ---
 
 先找到最长能有多少位，因为最大的数必定是最长的。然后从高位到低位对剩余的进行查找看能不能更大了
 
-<pre class="brush:cpp">
+```cpp
 /* CF 202div2 B
  *
  * */
@@ -57,6 +56,5 @@ int main(){
 	puts("");
 	return 0;
 }
-</pre>
-
+```
 	 

@@ -8,7 +8,7 @@ date: 2013-08-28 23:04:08
 
 <span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.399999618530273px; line-height: 26px;"> </span>
 
-# 
+### 
 	<a name="SECTION00010000000000000000" style="color: rgb(202, 0, 0);">Horner&#39;s Rule for Polynomials</a>
 
 	<span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.399999618530273px; line-height: 26px;">A general polynomial of degree </span>![$n$](http://www.physics.utah.edu/~detar/lessons/c++/array/img1.gif)<span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.399999618530273px; line-height: 26px;"> can be written as </span>

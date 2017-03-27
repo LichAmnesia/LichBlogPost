@@ -1,14 +1,11 @@
 ---
 title: HDU 4630 No Pain No Game (2013 多校第三场 J)
 tags:
-  - Contest
-  - DataStructure
-  - HDU
-  - 树状数组
+  - ACM
 date: 2013-08-12 17:51:23
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* HDU 4630 2013多校第三场J题 离线 数状数组
  * 算区间最大值得时候因为是从后往前所以算从头到此处的最大值树状数组可以处理
  * */
@@ -81,6 +78,7 @@ int main(){
 	}
 
 	return 0;
-}</pre>
+}
+```
 
 	 

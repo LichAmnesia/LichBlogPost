@@ -1,15 +1,14 @@
 ---
 title: ZOJ 3767 Elevator
 tags:
-  - ZOJ
+  - ACM
 date: 2014-04-07 11:21:47
 ---
 
 2014年浙大校赛 A
 
 	 
-
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-06 13:33:57
  *
@@ -50,6 +49,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

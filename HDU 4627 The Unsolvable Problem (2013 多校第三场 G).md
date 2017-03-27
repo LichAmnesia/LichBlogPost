@@ -1,12 +1,10 @@
 ---
 title: HDU 4627 The Unsolvable Problem (2013 多校第三场 G)
 tags:
-  - Contest
-  - 数学
+  - ACM
 date: 2013-08-12 17:45:17
 ---
-
-<pre class="brush:cpp">
+```cpp
 /* HDU 4627 2013多校第三场G
  * 简单题 分成奇数和能被四整除和的偶数
  * */
@@ -33,6 +31,7 @@ int main(){
 		cout << ans << endl;
 	}
 	return 0;
-}</pre>
+}
+```
 
 	 

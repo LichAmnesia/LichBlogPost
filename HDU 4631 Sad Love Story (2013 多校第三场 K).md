@@ -1,16 +1,12 @@
 ---
 title: HDU 4631 Sad Love Story (2013 多校第三场 K)
 tags:
-  - Contest
-  - DataStructure
-  - HDU
-  - 计算几何
+  - ACM
 date: 2013-08-12 17:57:10
 ---
 
 用set进行,加上一个小优化，就可以算最近点对，没有特别的数据
-
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <set>
@@ -80,6 +76,7 @@ int main()
 		cout << sum << endl;
 	}
 	return 0;
-}</pre>
+}
+```
 
 	 

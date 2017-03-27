@@ -8,42 +8,45 @@ date: 2013-11-12 09:32:00
 
 使用
 
-<pre class="brush:bash">
-mysql -u root -p</pre>
+```
+mysql -u root -p
+```
+启动Mysql报错
 
-	启动Mysql报错
 
-<pre class="brush:bash">
-ERROR 2002 (HY000): Can&#39;t connect to local MySQL server through socket &#39;/var/lib/mysql/mysql.sock&#39; (2)
-</pre>
+```
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket &#39;/var/lib/mysql/mysql.sock&#39; (2)
+```
+然后
 
-	然后
-
-<pre class="brush:bash">
+```
 su -
 service mysqld start
-mysql -u root -p</pre>
+mysql -u root -p
+```
 
-	还是出现
+还是出现
 
-<pre class="brush:bash" style="font-size: 13px;">
-ERROR 2002 (HY000): Can&#39;t connect to local MySQL server through socket &#39;/var/lib/mysql/mysql.sock&#39; (2)</pre>
+```
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket &#39;/var/lib/mysql/mysql.sock&#39; (2)
+```
 
-	发现是service 这里可能会有问题
 
-	用绝对路径启动就行了
+发现是service 这里可能会有问题
 
-<pre class="brush:bash">
+用绝对路径启动就行了
+
+```
 /etc/init.d/mysqld start
-</pre>
+```
 
-	启动Mysql
+启动Mysql
 
-	完整命令
+完整命令
 
-<pre class="brush:bash">
+```
 su -
 /etc/init.d/mysqld start
-mysql -u root -p</pre>
-
+mysql -u root -p
+```
 	 

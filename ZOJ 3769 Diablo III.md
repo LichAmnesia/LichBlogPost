@@ -1,16 +1,13 @@
 ---
 title: ZOJ 3769 Diablo III
 tags:
-  - Contest
-  - DP
-  - ZOJ
-  - 分组背包
+  - ACM
 date: 2014-04-08 14:42:33
 ---
 
  分组背包，finger先n^2预处理出来
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
@@ -70,6 +67,5 @@ int main(int argc, char const *argv[])
         printf("%dn",max(-1,dp[11][m]));
     }
     return 0;
-}</pre>
-
-	 
+}
+``` 

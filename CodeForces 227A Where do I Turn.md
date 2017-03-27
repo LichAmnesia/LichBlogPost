@@ -1,12 +1,11 @@
 ---
 title: CodeForces 227A Where do I Turn?
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-12-03 09:39:22
 ---
-
-<pre class="brush:cpp ">#include <iostream>
+```cpp
+#include <iostream>
 #include <cmath>
 #include <cstdio>
 
@@ -25,5 +24,5 @@ int main(){
 	else if (ans < 0) printf("RIGHTn");
  	else printf("TOWARDSn");
  	return 0;
-}</pre>
- 
+}
+``` 

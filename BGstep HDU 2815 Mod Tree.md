@@ -1,15 +1,13 @@
 ---
 title: BGstep HDU 2815 Mod Tree
 tags:
-  - HDU
-  - 数学
-  - 数论
+  - ACM
 date: 2013-08-28 15:16:02
 ---
 
 网上一堆讲解，基本知道什么样子然后套用模板就行
 
-<pre class="brush:cpp">
+```cpp
 /* BGstep HDU 2815
  * 求解a^x == c (mod p) 的 0 <= x < c
  * */
@@ -120,6 +118,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

@@ -1,14 +1,13 @@
 ---
 title: SGU 112 a^b-b^a (高精度)
 tags:
-  - SGU
-  - 高精度
+  - ACM
 date: 2014-01-01 16:36:47
 ---
 
 主类名必须为Solution，SGU的FAQ里面有写
 
-<pre class="brush:java">
+```java
 import java.io.*;
 import java.math.BigInteger;
 import java.util.*;
@@ -24,6 +23,4 @@ public class Solution{
 		System.out.println(A.subtract(B));
 	}
 }
-</pre>
-
-	 
+```

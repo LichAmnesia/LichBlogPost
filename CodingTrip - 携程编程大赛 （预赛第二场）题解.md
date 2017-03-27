@@ -1,19 +1,18 @@
 ---
 title: CodingTrip - 携程编程大赛 （预赛第二场）题解
 tags:
-  - Contest
+  - ACM
 date: 2014-04-11 20:59:01
 ---
 
 A POJ 1182 食物链的
 
-	D POJ 1740 男人八题
+D POJ 1740 男人八题
+ 
 
-	 
+### A
 
-	A
-
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <cstring>
@@ -76,13 +75,14 @@ int main(){
         printf("%dn",ans);
     }
     return 0;
-}</pre>
+}
+```
 
 	 
 
-	B
+### B
 
-<pre class="brush:cpp">
+```cpp
 //906MS水过
 //好多地方可以优化比如数组大小最大1600/2基本就够了
 //其实是可以二维的
@@ -171,11 +171,12 @@ int main()
 		printf("%dn", ans == 0? -1:ans );
 	}
 	return 0;
-}</pre>
+}
+```
 
-	C
+### C
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <cstring>
@@ -211,11 +212,12 @@ int main(int argc, char const *argv[])
 
     }
     return 0;
-}</pre>
+}
+```
 
-	D
+### D
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <stdio.h>
 #include <algorithm>
@@ -239,6 +241,7 @@ int a[20],n;
         else printf("Winn");
     }
     return 0;
-}</pre>
+}
+```
 
 	 

@@ -1,12 +1,13 @@
 ---
 title: ZOJ 3770 Ranking System
 tags:
-  - ZOJ
+  - ACM
 date: 2014-04-07 12:06:14
 ---
 
 2014 浙大校赛 D 排序题
-<pre class="brush:cpp">
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-06 14:17:00
  *
@@ -81,8 +82,7 @@ int main(){
 	}
 	return 0;	
 }
-</pre>
-
+```
 	 
 
 	 

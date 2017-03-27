@@ -1,17 +1,15 @@
 ---
 title: ZOJ 3768 Continuous Login
 tags:
-  - ZOJ
+  - ACM
 date: 2014-04-07 12:05:04
 ---
 
 2014 浙大校赛 B
 
-	其实就是找到规律最多只可能是1，2，3种分割
+其实就是找到规律最多只可能是1，2，3种分割
 
-	 
-
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-07 11:22:09
  *
@@ -80,6 +78,4 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
-	 
+```

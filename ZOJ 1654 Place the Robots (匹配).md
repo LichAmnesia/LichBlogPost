@@ -1,16 +1,14 @@
 ---
 title: ZOJ 1654 Place the Robots (匹配)
 tags:
-  - ZOJ
-  - 匹配
+  - ACM
 date: 2014-01-24 21:53:27
 ---
 
 求最大独立集转化为求最大匹配
 
-	 
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-01-24 21:10:12
  * 
@@ -123,6 +121,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

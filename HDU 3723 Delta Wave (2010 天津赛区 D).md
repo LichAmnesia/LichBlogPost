@@ -1,10 +1,7 @@
 ---
 title: HDU 3723 Delta Wave (2010 天津赛区 D)
 tags:
-  - Contest
-  - HDU
-  - Java
-  - 数学
+  - ACM
 date: 2013-07-30 13:49:53
 ---
 

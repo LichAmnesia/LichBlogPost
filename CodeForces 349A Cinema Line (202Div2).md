@@ -1,14 +1,13 @@
 ---
 title: CodeForces 349A Cinema Line (202Div2)
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-09-30 09:12:12
 ---
 
 简单题
 
-<pre class="brush:cpp">
+```cpp
 /* CF 202 div2 A
  *
  * */
@@ -57,6 +56,5 @@ int main(){
 	else printf("NOn");
 	return 0;
 }
-</pre>
-
+```
 	 

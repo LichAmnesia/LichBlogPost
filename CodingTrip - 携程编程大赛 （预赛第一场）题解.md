@@ -1,19 +1,19 @@
 ---
 title: CodingTrip - 携程编程大赛 （预赛第一场）题解
 tags:
-  - Contest
+  - ACM
 date: 2014-04-10 21:12:18
 ---
 
 A题是POJ1091
 
-	B题是POJ1141
+B题是POJ1141
 
-	 
+ 
 
-	A
+### A
 
-<pre class="brush:cpp">
+```cpp
 //假设卡片上标号分别A1,A2,...,An,M，跳蚤跳对应号的次数分别是X1,X2,...,Xn,跳M个单位长度的次数是Xn-1,那么要满足一直条件只需满足方程Xn+1A1X1+A2X2+...+AnXn+M X^(n+1)=1有解，即（A1,A2,...,An,M）=1,接下来对M分解，然后排除共因子不是1的情况即可。
 
 #include<iostream>
@@ -83,11 +83,12 @@ int main(){
         printf("%I64dn",ans);
     }
     return 0;
-}</pre>
+}
+```
 
-	B
+### B
 
-<pre class="brush:cpp">
+```cpp
 #include<stdio.h>
 #include<string.h>
 #include<algorithm>
@@ -124,11 +125,13 @@ int main()
         }
         printf("%dn",dp[0][l-1]);
     }
-}</pre>
+}
+```
 
-	C
 
-<pre class="brush:cpp">
+### C
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-10 19:56:22
  *
@@ -237,11 +240,12 @@ int main(){
         else puts("N");
     }
     return 0;
-}</pre>
+}
+```
 
-	D
+### D
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-04-10 19:36:37
  *
@@ -308,6 +312,7 @@ int main(){
         printf("%sn",s);
     }
     return 0;
-}</pre>
+}
+```
 
 	 

@@ -1,15 +1,12 @@
 ---
 title: ZOJ 3416 Balanced Number (数位dp)
 tags:
-  - DP
-  - ZOJ
-  - 数位DP
+  - ACM
 date: 2013-09-20 16:41:52
 ---
 
-<pre class="brush:cpp">
 发现用记忆化搜索写数位DP 比较好写
-
+```cpp
 /* ZOJ 3416 数位DP
  * 一个数是Balanced ，指这个数的力矩为0
  * 如 4139 选支点为3  4*2 + 1*1 = 9*1 
@@ -107,6 +104,5 @@ int main(){
 	}
 	return 0;
 }
-</pre>
-
+```
 	 

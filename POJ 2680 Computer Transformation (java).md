@@ -1,51 +1,43 @@
 ---
 title: POJ 2680 Computer Transformation (java)
 tags:
-  - Java
-  - POJ
-  - 数学
+  - ACM
 date: 2014-01-28 23:08:00
 ---
 
-<span style="font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 1.6em;">一个序列，开始时为1，接下来每步，该序列中的1变为01,0变为10，求第n步时序列中连续的0有多少对？</span>
+一个序列，开始时为1，接下来每步，该序列中的1变为01,0变为10，求第n步时序列中连续的0有多少对？
 
-	 
+ 
 
-	令Sn表示第n个序列，~Sn表示第n个序列的反，An表示第n步时序列中连续的0的对数。
+令Sn表示第n个序列，~Sn表示第n个序列的反，An表示第n步时序列中连续的0的对数。
 
 	0 ： 1
-
 	1 ： 01
-
 	2 ： 1001
-
 	3 ： 01101001
-
 	4 ： 1001011001101001
-
 	5 ： 01101001100101101001011001101001
 
-	 
 
-	观察可得，Sn=~S(n-1)+S(n-1);
+观察可得，Sn=~S(n-1)+S(n-1);
 
-	(1)当n为奇数时,Sn中连续的1和0的数相同
+(1)当n为奇数时,Sn中连续的1和0的数相同
 
-	     ~Sn的末位和Sn的首位都是0，
+~Sn的末位和Sn的首位都是0，
 
-	     A(n+1)=An+An +1;
+A(n+1)=An+An +1;
 
-	(2)当n为偶数时,Sn中连续的1比0的少1
+(2)当n为偶数时,Sn中连续的1比0的少1
 
-	    ~Sn的末位是0，Sn的首位都是0，
+~Sn的末位是0，Sn的首位都是0，
 
-	    A(n+1)=An+An - 1;
+A(n+1)=An+An - 1;
 
-	 
+ 
 
-	然后根据这个以及高中数学找出一个关系式子,求出An的表达式
+然后根据这个以及高中数学找出一个关系式子,求出An的表达式
 
-<pre class="brush:java">
+```java
 import java.io.*;
 import java.util.*;
 import java.math.*;
@@ -70,13 +62,13 @@ public class Main{
             System.out.println(ans);
 		}
 	}
-} </pre>
+} 
+```
 
-	 
 
-	另外的写法:
+另外的写法:
 
-<pre class="brush:java">
+```java
 import java.util.*;
 import java.math.*;
 
@@ -96,6 +88,7 @@ import java.math.*;
        System.out.println(a[n]);
      }
    }
-}</pre>
+}
+```
 
 	 

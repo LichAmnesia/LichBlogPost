@@ -1,16 +1,13 @@
 ---
 title: CodeForces 348D Turtles (202Div1)
 tags:
-  - CodeForces
-  - Contest
-  - DP
-  - 数学
+  - ACM
 date: 2013-09-30 09:21:30
 ---
 
 如果不相交很好求，就是work函数动态规划就行了，可是相交，最多三个交点，也就是在两个人的路中有一个交点，把这种情况给删除掉，就是(1,2)走到了(N,M-1)和(2,1)走到了(N-1,M)的位置
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2013-09-29 21:48:22
  *
@@ -61,6 +58,6 @@ int main(){
 	cout << ans << endl;
 	return 0;
 }
-</pre>
+```
 
 	 

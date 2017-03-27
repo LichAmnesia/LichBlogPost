@@ -1,178 +1,28 @@
 ---
 title: POJ 1511 Invitation Cards (SPFA + JAVA)
 tags:
-  - Java
-  - SPFA
+  - ACM
 date: 2014-03-19 13:52:03
 ---
 
 尝试了一下Java写SPFA各种不习惯各种蛋疼，不过最终竟然以非常高的时间给过了``貌似是C的N倍了，没做java的IO优化，如果按照petr的那种IO的话应该会快点的
 
-<table border="1" bordercolor="#FFFFFF" cellpadding="0" cellspacing="0" class="a" style="background-image: url(http://poj.org/images/table_back.jpg); border-collapse: collapse; font-family: 'Times New Roman', Times, serif;" width="100%">
-	<tbody>
-		<tr align="center">
-			<td>
-				12646464
-			</td>
-			<td>
-				[chen3221](http://poj.org/userstatus?user_id=chen3221)
-			</td>
-			<td>
-				[1511](http://poj.org/problem?id=1511)
-			</td>
-			<td>
-				<font color="blue">Accepted</font>
-			</td>
-			<td>
-				92276K
-			</td>
-			<td>
-				21266MS
-			</td>
-			<td>
-				[Java](http://poj.org/showsource?solution_id=12646464)
-			</td>
-			<td>
-				1894B
-			</td>
-			<td>
-				2014-03-19 13:45:02
-			</td>
-		</tr>
-		<tr align="center">
-			<td>
-				12646454
-			</td>
-			<td>
-				[chen3221](http://poj.org/userstatus?user_id=chen3221)
-			</td>
-			<td>
-				[1511](http://poj.org/problem?id=1511)
-			</td>
-			<td>
-				<font color="red">Runtime Error</font>
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				[Java](http://poj.org/showsource?solution_id=12646454)
-			</td>
-			<td>
-				1894B
-			</td>
-			<td>
-				2014-03-19 13:43:33
-			</td>
-		</tr>
-		<tr align="center">
-			<td>
-				12646432
-			</td>
-			<td>
-				[chen3221](http://poj.org/userstatus?user_id=chen3221)
-			</td>
-			<td>
-				[1511](http://poj.org/problem?id=1511)
-			</td>
-			<td>
-				<font color="red">Wrong Answer</font>
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				[Java](http://poj.org/showsource?solution_id=12646432)
-			</td>
-			<td>
-				1892B
-			</td>
-			<td>
-				2014-03-19 13:40:09
-			</td>
-		</tr>
-		<tr align="center">
-			<td>
-				12646394
-			</td>
-			<td>
-				[chen3221](http://poj.org/userstatus?user_id=chen3221)
-			</td>
-			<td>
-				[1511](http://poj.org/problem?id=1511)
-			</td>
-			<td>
-				<font color="red">Memory Limit Exceeded</font>
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				[Java](http://poj.org/showsource?solution_id=12646394)
-			</td>
-			<td>
-				1917B
-			</td>
-			<td>
-				2014-03-19 13:32:45
-			</td>
-		</tr>
-		<tr align="center">
-			<td>
-				12646378
-			</td>
-			<td>
-				[chen3221](http://poj.org/userstatus?user_id=chen3221)
-			</td>
-			<td>
-				[1511](http://poj.org/problem?id=1511)
-			</td>
-			<td>
-				<font color="red">Memory Limit Exceeded</font>
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				 
-			</td>
-			<td>
-				[Java](http://poj.org/showsource?solution_id=12646378)
-			</td>
-			<td>
-				1919B
-			</td>
-			<td>
-				2014-03-19 13:28:48
-			</td>
-		</tr>
-	</tbody>
-</table>
 
-	 
 
-	 放上代码，觉得写的还不错
 
-	 先MLE了，由于每次new的时候是new [maxn]这个maxn开的比较大，所以``
+放上代码，觉得写的还不错
 
-	 然后MLE是由于每个样例都new Graph了，开太多空间了
+先MLE了，由于每次new的时候是new [maxn]这个maxn开的比较大，所以``
 
-	 WA是因为SPFA函数类型是int其实超过int了得用long
+然后MLE是由于每个样例都new Graph了，开太多空间了
 
-	 RE是因为init的时候head数组初始化是1-M其实应该是1-N``
+WA是因为SPFA函数类型是int其实超过int了得用long
 
-	 
+RE是因为init的时候head数组初始化是1-M其实应该是1-N``
 
-<pre class="brush:java">
+
+
+```java
 import java.util.*;
 import java.io.*;
 
@@ -270,6 +120,6 @@ public class Main{
 		}
 	}
 }
-</pre>
+```
 
 	 

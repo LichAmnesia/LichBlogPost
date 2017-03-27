@@ -1,14 +1,11 @@
 ---
 title: POJ 1845 Sumdiv (二分+快速幂 也可以逆元)
 tags:
-  - 快速幂
-  - 数学
-  - 数论
-  - 逆元
+  - ACM
 date: 2013-09-22 11:03:58
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* 给出A,B求A^B内的所有约数之和   mod 9901
  *
  * 约数之和，有公式 (p1^0 +  + p1^n1)**(pk^0 +  + pk^nk)
@@ -121,6 +118,5 @@ int main(){
 	} 
 	return 0;	
 }
-</pre>
-
+```
 	 

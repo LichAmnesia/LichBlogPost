@@ -1,34 +1,33 @@
 ---
 title: POJ 2151 Check the difficulty of problems（概率DP）
 tags:
-  - DP
-  - POJ
+  - ACM
 date: 2014-02-05 19:49:29
 ---
 
 **题意**
 
-	<span style="font-family: Arial; font-size: 13.63636302947998px; line-height: 25.99431800842285px;">一次比赛中，共M道题，T个队，p[i][j]表示队i解出题j的概率；</span>
+一次比赛中，共M道题，T个队，p[i][j]表示队i解出题j的概率；
 
-	<span style="font-family: Arial; font-size: 13.63636302947998px; line-height: 25.99431800842285px;">问每队至少解出一题且</span><span style="font-family: Arial; font-size: 13.63636302947998px; line-height: 25.99431800842285px;">冠军队至少解出N道题的概率。</span>
+问每队至少解出一题且冠军队至少解出N道题的概率。
 
-	 
 
-	**思路**
 
-	f[i][j][k]表示 第i个队伍在前i个题目里过了k道题
+**思路**
 
-	dp[i][j] 表示第i个队伍过了1道到 j 道题
+f[i][j][k]表示 第i个队伍在前i个题目里过了k道题
 
-	ans1 表示1～T个队伍过题数都在 1～M之间的概率
+dp[i][j] 表示第i个队伍过了1道到 j 道题
 
-	ans2 表示1～T个队伍过题数都在 1～N-1之间概率
+ans1 表示1～T个队伍过题数都在 1～M之间的概率
 
-	ans1 - ans2 就是所求答案
+ans2 表示1～T个队伍过题数都在 1～N-1之间概率
 
-	 
+ans1 - ans2 就是所求答案
 
-<pre class="brush:cpp">
+ 
+
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-02-05 19:19:45
  *
@@ -101,6 +100,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
 
+```
 	 

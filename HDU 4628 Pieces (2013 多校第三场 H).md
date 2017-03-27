@@ -1,10 +1,7 @@
 ---
 title: HDU 4628 Pieces (2013 多校第三场 H)
 tags:
-  - Contest
-  - DP
-  - HDU
-  - 状态压缩
+  - ACM
 date: 2013-08-12 17:37:38
 ---
 

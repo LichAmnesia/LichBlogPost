@@ -1,13 +1,11 @@
 ---
 title: HDU 4632 Palindrome subsequence (2013多校第四场A)
 tags:
-  - Contest
-  - DP
-  - HDU
+  - ACM
 date: 2013-08-14 11:17:16
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* 区间dp
  * dp[i][j] 表示字符串的i~j段共有多少个不同子串
  * 那么dp[i][j] = dp[i][j-1] + dp[i+1][j] - dp[i+1][j-1]
@@ -52,6 +50,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

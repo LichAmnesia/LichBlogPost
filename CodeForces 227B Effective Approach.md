@@ -1,14 +1,13 @@
 ---
 title: CodeForces 227B Effective Approach
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-12-03 09:40:33
 ---
 
 做一个映射表第一次出现的位置就行了
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cmath>
 #include <algorithm>
@@ -50,6 +49,7 @@ int main(){
 	}
 	cout << ansmin << &#39; &#39; << ansmax << endl;
  	return 0;
-}</pre>
+}
+```
 
 	 

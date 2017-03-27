@@ -1,18 +1,17 @@
 ---
 title: POJ 1141 Brackets Sequence (简单DP)
 tags:
-  - DP
-  - POJ
+	- ACM
 date: 2014-01-01 15:44:43
 ---
 
 求出最小的匹配的个数，然后找到需要加多少个，
 
-	dp[i,j] 表示着从i到j最少要加多少个，并且path[i,j]表示这个在哪里进行分段。
+dp[i,j] 表示着从i到j最少要加多少个，并且path[i,j]表示这个在哪里进行分段。
 
-	dp[i,j] = min(dp[i,k] + dp[k+1,j]) k是i到j的遍历，并且要判断i和j是否两个正好匹配，否则dp[i,j]得出来的值需要和dp[i+1,j-1]进行比较
+dp[i,j] = min(dp[i,k] + dp[k+1,j]) k是i到j的遍历，并且要判断i和j是否两个正好匹配，否则dp[i,j]得出来的值需要和dp[i+1,j-1]进行比较
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-01-01 00:03:17
  *
@@ -89,6 +88,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 

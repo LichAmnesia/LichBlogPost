@@ -1,14 +1,13 @@
 ---
 title: CodeForces 205A Little Elephant and Rozdil
 tags:
-  - CodeForces
-  - Contest
+  - ACM
 date: 2013-11-21 09:58:10
 ---
 
 读懂题就行，不用排序找一下最小的是不是多个
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -37,6 +36,6 @@ int main(){
 	if (flag) printf("Still Rozdiln");
 	else printf("%dn", Mini + 1);
 	return 0;
-}</pre>
-
+}
+```
 	 

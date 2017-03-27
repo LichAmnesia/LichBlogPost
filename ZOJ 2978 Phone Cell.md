@@ -1,13 +1,13 @@
 ---
 title: ZOJ 2978 Phone Cell
 tags:
-  - 计算几何
+  - ACM
 date: 2014-02-24 11:27:35
 ---
 
-同<span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 13.63636302947998px; line-height: 26px;">2167，只不过这次不是单位圆覆盖了，是给定半径了</span>
+同2167，只不过这次不是单位圆覆盖了，是给定半径了
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-02-24 08:56:31
  *
@@ -160,6 +160,5 @@ int main(){
 	return 0;
 }
 
-</pre>
-
+```
 	 

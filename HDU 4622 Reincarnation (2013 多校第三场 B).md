@@ -1,15 +1,13 @@
 ---
 title: HDU 4622 Reincarnation (2013 多校第三场 B)
 tags:
-  - Contest
-  - DataStructure
-  - 字符串
+  - ACM
 date: 2013-08-12 18:02:19
 ---
 
 字符串hash，用到一个技巧，看代码
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
@@ -103,6 +101,7 @@ int main (){
 		}
 	}
 	return 0;
-}</pre>
+}
+```
 
 	 

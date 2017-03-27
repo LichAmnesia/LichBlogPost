@@ -1,10 +1,7 @@
 ---
 title: HDU 4617 2013多校第二场G Weapon
 tags:
-  - Contest
-  - HDU
-  - 三维
-  - 计算几何
+  - ACM
 date: 2013-07-27 22:00:51
 ---
 

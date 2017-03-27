@@ -1,17 +1,15 @@
 ---
 title: ZOJ 1030 Farmland (极角排序扫描)
 tags:
-  - DFS
-  - ZOJ
-  - 计算几何
+  - ACM
 date: 2014-03-03 20:19:12
 ---
 
 注意判定是逆时针旋转扫描边就行（这个还不是很清楚，check函数）
 
-	每次走的时候选择最左的
+每次走的时候选择最左的
 
-<pre class="brush:cpp">
+```cpp
 /* From: Lich_Amnesia
  * Time: 2014-03-03 19:19:41
  *
@@ -103,6 +101,5 @@ int main(){
 		printf("%dn",ans);
 	}
 	return 0;
-}</pre>
-
-	 
+}
+```

@@ -1,13 +1,10 @@
 ---
 title: HDU 4637 Rain on your Fat brother (2013多校第四场F)
 tags:
-  - Contest
-  - HDU
-  - 计算几何
+  - ACM
 date: 2013-08-13 16:23:51
 ---
-
-<pre class="brush:cpp">
+```cpp
 /* HDU 4637 
  * 我们可以把雨滴看做静止不动，然后maze（这题的那个人）
  * 就是往左上方运动就可以了，计算出maze能跑到的最远的点，
@@ -171,6 +168,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
 
+```
 	 

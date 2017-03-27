@@ -1,10 +1,7 @@
 ---
 title: HDU 3724 Encoded Barcodes (2010 天津赛区 E)
 tags:
-  - Contest
-  - DataStructure
-  - HDU
-  - Trie
+  - ACM
 date: 2013-08-01 13:32:25
 ---
 

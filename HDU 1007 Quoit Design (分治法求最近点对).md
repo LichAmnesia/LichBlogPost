@@ -1,18 +1,17 @@
 ---
 title: HDU 1007 Quoit Design (分治法求最近点对)
 tags:
-  - HDU
-  - 最近点对
+  - ACM
 date: 2014-03-28 09:09:01
 ---
 
 最近点对可能在下面三种情况
 
-	[l,mid] [mid + 1,r] 以及 mid 的左右 d区域
+[l,mid] [mid + 1,r] 以及 mid 的左右 d区域
 
-	 
+ 
 
-<pre class="brush:cpp">
+```cpp
 //hdu1007
 //最近点对问题
 
@@ -71,6 +70,7 @@ int main(int argc, char const *argv[])
 		printf("%.2lfn", find(0,n-1)/2);
 	}		
 	return 0;
-}</pre>
+}
+```
 
 	 

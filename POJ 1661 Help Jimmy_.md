@@ -1,18 +1,17 @@
 ---
 title: "POJ 1661 Help Jimmy\_"
 tags:
-  - DP
-  - POJ
+  - ACM
 date: 2014-04-04 09:18:58
 ---
 
 dp[i][0]表示从上面落到i的左边的横向最短距离
 
-	dp[i][0]表示从上面落到i的右边的横向最短距离
+dp[i][0]表示从上面落到i的右边的横向最短距离
 
-	 
+ 
 
-<pre class="brush:cpp">
+```cpp
 #include <iostream>
 #include <cstring>
 #include <cstdio>
@@ -78,6 +77,5 @@ int main(int argc, char const *argv[])
 		printf("%dn", ans + y);
 	}
 	return 0;
-}</pre>
-
-	 
+}
+```

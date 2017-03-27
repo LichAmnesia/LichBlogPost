@@ -1,14 +1,11 @@
 ---
 title: HDU 4642 Fliping game (2013多校第四场K)
 tags:
-  - Contest
-  - HDU
-  - 博弈
-  - 数学
+  - ACM
 date: 2013-08-13 20:30:14
 ---
 
-<pre class="brush:cpp">
+```cpp
 /* 找规律发现只跟右下角的那个硬币有关
  *
  * */
@@ -37,6 +34,6 @@ int main(){
 	}
 	return 0;
 }
-</pre>
+```
 
 	 
